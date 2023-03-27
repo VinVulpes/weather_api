@@ -11,7 +11,7 @@ Run in Docker container:
 
 OR
 
-1.docker-compose up -d --build
+1. docker-compose up -d --build
 
 Example current: curl localhost:5000/current/city=Murmansk
 
