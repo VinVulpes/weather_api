@@ -9,6 +9,10 @@ Run in Docker container:
 2. docker run --name weather_server -p 5000:5000 -d flask_docker
 3. curl localhost:5000
 
+OR
+
+1.docker-compose up -d --build
+
 Example current: curl localhost:5000/current/city=Murmansk
 
 or
