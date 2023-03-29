@@ -4,7 +4,7 @@ import os, requests, re
 app = Flask(__name__)
 
 #key = '5dad5ab210114bbf98e141921231902'
-key = '1db4fdaea7d8457dbd5220318232402'
+key = '66228304de824f71a11172133232903'
 WEATHER_API_VAR = os.getenv('WEATHER_API')
 '''
 res = requests.get('http://api.weatherapi.com/v1/current.json?key=5dad5ab210114bbf98e141921231902&q=Glasgo')
